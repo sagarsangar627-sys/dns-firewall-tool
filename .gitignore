@@ -1,0 +1,41 @@
+# Build directories
+build/
+cmake_build_debug/
+cmake_build_release/
+
+# Compiled objects
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+dns-firewall-tool
+test_dns
+test_firewall
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# Logs
+*.log
+/var/log/dns-firewall-tool/
+
+# Temporary files
+*.tmp
+*.temp
